@@ -1,0 +1,15 @@
+D:\Projects\Benchmark\bin\Debug\net6.0\Benchmark.exe
+D:\Projects\Benchmark\bin\Debug\net6.0\Benchmark.deps.json
+D:\Projects\Benchmark\bin\Debug\net6.0\Benchmark.runtimeconfig.json
+D:\Projects\Benchmark\bin\Debug\net6.0\Benchmark.dll
+D:\Projects\Benchmark\bin\Debug\net6.0\Benchmark.pdb
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.csproj.AssemblyReference.cache
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.AssemblyInfoInputs.cache
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.AssemblyInfo.cs
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.csproj.CoreCompileInputs.cache
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.dll
+D:\Projects\Benchmark\obj\Debug\net6.0\refint\Benchmark.dll
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.pdb
+D:\Projects\Benchmark\obj\Debug\net6.0\Benchmark.genruntimeconfig.cache
+D:\Projects\Benchmark\obj\Debug\net6.0\ref\Benchmark.dll
