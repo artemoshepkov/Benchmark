@@ -1,4 +1,4 @@
-﻿using ProcessorTester;
+﻿using Tester;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -7,18 +7,18 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 
-namespace ProcessorTester
+namespace Tester
 {
-    public class Benchmark
+    public class BenchmarkProcessor
     {
         private Stopwatch _stopwatch;
         private Dictionary<TaskData, Func<int>> _tasks;
-        public Benchmark()
+        public BenchmarkProcessor()
         {
             _stopwatch = new Stopwatch();
             _tasks = new Dictionary<TaskData, Func<int>>();
         }
-        public Benchmark(Dictionary<TaskData, Func<int>> tasks)
+        public BenchmarkProcessor(Dictionary<TaskData, Func<int>> tasks)
         {
             _stopwatch = new Stopwatch();
             _tasks = tasks;
