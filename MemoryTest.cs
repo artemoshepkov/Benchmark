@@ -9,10 +9,10 @@ namespace Benchmark
     public class MemoryTest
     {
         public string MemoryType;
-        public uint BlockSize;
+        public double BlockSize;
         public string ElementType;
-        public uint BufferSize;
-        public uint LaunchNum;
+        public int BufferSize;
+        public int LaunchNum;
         public string Timer;
         public double WriteTime;
         public double AverageWriteTime;
@@ -25,9 +25,12 @@ namespace Benchmark
         public double ReadAbsError;
         public double ReadRelError;
 
-        //public override string ToString()
-        //{
-        //    return string.Format();
-        //}
+        public override string ToString()
+        {
+            return string.Format("{0};{1};{2};{3};{4};{5};{6};{7};{8};{9};{10};{11};{12};{13};{14}",
+                MemoryType, BlockSize / 1024 / 1024, ElementType, LaunchNum, Timer, 
+                WriteTime, AverageWriteTime, WriteBandwidth, WriteAbsError, WriteRelError,
+                ReadTime, AverageReadTime, ReadBandwidth, ReadAbsError, ReadRelError);
+        }
     }
 }
